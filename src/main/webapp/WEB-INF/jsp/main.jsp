@@ -60,7 +60,7 @@
 						
 
 								<tr>
-									<td><input type="button" value="Logout "  class="greenButton"  /></td>
+									<td><input type="button" value="Logout "  class="greenButton"  onclick="logout()" /></td>
 								</tr>
 					
 							 
@@ -120,7 +120,9 @@
 					});
 		});
 		
-		
+		function logout(){
+			location.href="<c:url value='/logout' />";
+		}
 	</script>
 
 

@@ -22,8 +22,8 @@
 			
 		<security:logout 
 				invalidate-session="true" 
-				logout-success-url="/ic/auth/login" 
-				logout-url="/ic/auth/logout"/>
+				logout-success-url="/login.jsp" 
+				logout-url="/logout"/>
 	
 	</security:http>
 	

@@ -1,6 +1,6 @@
 deploy application to heroku
 
-git push heroky master 
+git push heroku master 
 
 public key/private key    and known_host file
 
@@ -13,7 +13,7 @@ local git config file :
 	
 	
 	
-	http://dry-castle-5417.herokuapp.com
+	http://dry-castle-5417.herokuapp.com/login.jsp
 	
 	heroku plugins:install https://github.com/heroku/heroku-deploy
 	
@@ -21,3 +21,7 @@ local git config file :
 	heroku deploy:war --war  target/Integration_Challenge_AppDirect.war --app dry-castle-5417
 	
 	heroku scale web=1 --app dry-castle-5417
+	
+	Github
+	
+	git push original master
