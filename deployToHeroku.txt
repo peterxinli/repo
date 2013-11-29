@@ -1,0 +1,12 @@
+deploy application to heroku
+
+git push heroky master 
+
+public key/private key    and known_host file
+
+local git config file : 
+[remote "heroku"]
+	url = git@heroku.com:dry-castle-5417.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+	
+	(dry-castle-5417.git) must match your application name on remote server
