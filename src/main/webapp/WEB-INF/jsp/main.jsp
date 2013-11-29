@@ -60,7 +60,7 @@
 						
 
 								<tr>
-									<td><input type="button" value="Other Item "  class="greenButton"  /></td>
+									<td><input type="button" value="Logout "  class="greenButton"  /></td>
 								</tr>
 					
 							 

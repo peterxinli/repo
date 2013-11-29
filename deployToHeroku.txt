@@ -10,3 +10,14 @@ local git config file :
 	fetch = +refs/heads/*:refs/remotes/heroku/*
 	
 	(dry-castle-5417.git) must match your application name on remote server
+	
+	
+	
+	http://dry-castle-5417.herokuapp.com
+	
+	heroku plugins:install https://github.com/heroku/heroku-deploy
+	
+	
+	heroku deploy:war --war  target/Integration_Challenge_AppDirect.war --app dry-castle-5417
+	
+	heroku scale web=1 --app dry-castle-5417
