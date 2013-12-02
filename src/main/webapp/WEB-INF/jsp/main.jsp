@@ -39,25 +39,14 @@
 						 
 					
 							<tr>
-								<td><input type="button" value="Buy My Application"	class="greenButton"	 /></td>
+								<td><input type="button" value="Buy My Application"	class="greenButton"	 onclick="buy()" /></td>
 
 							</tr>
 						
-						
+											
+
+
 							
-
-
-								<tr>
-									<td><input type="button" value="Assign My application"		class="greenButton" />
-									</td>
-								</tr>
-						
-						
-
-								<tr>
-									<td><input type="button" value="Unassign My Application"	class="greenButton"   /></td>
-								</tr>
-						
 
 								<tr>
 									<td><input type="button" value="Logout "  class="greenButton"  onclick="logout()" /></td>
@@ -122,6 +111,10 @@
 		
 		function logout(){
 			location.href="<c:url value='/logout' />";
+		}
+		
+		function buy(){
+			location.href="<c:url value='/ic/main/subscribe' />";
 		}
 	</script>
 

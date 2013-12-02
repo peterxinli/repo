@@ -1,0 +1,24 @@
+<myapps>
+        <myapp>
+                <description>
+                        New Relic web application performance management is the only tool you need.
+                </description>
+                <developerName>New Relic</developerName>
+                <imageUrl>
+                        https://example.com/img2713834581379867546.png
+                </imageUrl>
+                <loginUrl>https://www.example.com/login</loginUrl>
+                <marketplaceUrl>https://www.example.com/1140/</marketplaceUrl>
+                <name>New Relic</name>
+                <overview>
+                        New Relic is the all-in-one web app performance tool.
+                </overview>
+                <productType>WEB_APP</productType>
+                <publishedOn>2011-11-29T21:09:50-05:00</publishedOn>
+                <status>ACTIVE</status>
+                <versions/>
+        </myapp>
+</myapps>
+
+
+GET    https://www.appdirect.com/api/account/v1/myapps
