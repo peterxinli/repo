@@ -25,3 +25,19 @@ local git config file :
 	Github
 	
 	git push original master
+	
+	
+	
+	
+	
+	https://www.appdirect.com/api/integration/v1/events/${token}
+	
+	SUBSCRIPTION_ORDER: fired by AppDirect when a user buys an app from AppDirect.
+SUBSCRIPTION_CHANGE: fired by AppDirect when a user upgrades/downgrades/modifies an existing subscription.
+SUBSCRIPTION_CANCEL: fired by AppDirect when a user cancels a subscription.
+SUBSCRIPTION_NOTICE: fired by AppDirect when a subscription goes overdue or delinquent.
+USER_ASSIGNMENT: fired by AppDirect when a user assigns a user to an app.
+USER_UNASSIGNMENT: fired by AppDirect when a user unassigns a user from an app.
+	
+	git://github.com/AppDirect/Sample-Python-Application.git
+	
